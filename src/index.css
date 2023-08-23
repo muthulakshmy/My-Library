@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+body{
+  background-image: url(bg.webp);
+  padding: 10px;
+ 
+}
+.myLibrary{
+  display: flex;
+  flex-direction: column;
+}
+input{
+  width: 300px;
+  height: 20px;
+
+}
+button{
+  width:100px;
+  height: 30px;
+  margin-top: 10px;
+  background-color:indigo;
+  color:rgb(219, 212, 224);
+  border-radius: 5px;
+  border: none;
+}
+.delete{
+  margin-left: 10px;
+}
